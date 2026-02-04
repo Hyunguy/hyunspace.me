@@ -1,0 +1,3 @@
+[submodule "hyunspace"]
+	path = hyunspace
+	url = https://github.com/Hyunguy/hyunspace.git
