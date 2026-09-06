@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <link rel="icon" href="favicon.svg">
+    <link rel="mask-icon" href="favicon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="logo-small.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pxlhvk.</title>
+    <script type="module" crossorigin src="/assets/index-DIOP7NZi.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Csn3OCW9.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="world-container">
+      <canvas id="c" unselectable="on" class="unselectable"></canvas>
+    </div>
+  </body>
+</html>

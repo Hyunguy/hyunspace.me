@@ -1,0 +1,13 @@
+{
+    "name": "pixelhavokk.dev",
+    "short_name": "pxlhvk",
+    "icons": [
+        {
+            "src": "logo-large.png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "fullscreen"
+}
