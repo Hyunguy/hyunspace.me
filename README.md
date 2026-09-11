@@ -8,7 +8,7 @@ Use Node 24 or later. Run `npm ci`, then `npm run dev`. For another port, use `n
 
 Run `npm test` for catalog and asset checks, `npm run build` to build, and `npm run preview` to inspect the production output. Tailwind is compiled at build time.
 
-**Deploy `dist/`, not the source checkout.** The output includes the CNAME and a `404.html` app shell for static-host route refreshes. Hosts with SPA rewrites should rewrite frontend routes to `index.html`. This branch does not change the live Pages deployment. Before merging into a Pages source branch, configure Pages to deploy the built output.
+**Deploy `dist/`, not the source checkout.** The output includes the CNAME and a `404.html` app shell for static-host route refreshes. Hosts with SPA rewrites should rewrite frontend routes to `index.html`. GitHub Actions tests, builds, and deploys this output to Pages on pushes to `main`; other branches only run the checks. Pages uses the GitHub Actions publishing source.
 
 ## Content
 
