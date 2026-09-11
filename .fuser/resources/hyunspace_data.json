@@ -1,0 +1,36 @@
+{
+  "id": "hyunspace_data",
+  "binding": "HYUNSPACE_DATA",
+  "displayName": "Hyunspace Data",
+  "kind": "resource",
+  "api": {
+    "type": "http",
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/items",
+        "description": "Get saved portfolio stats and visitor messages",
+        "response": "{ id: number, message: string, created_at: number }[]"
+      },
+      {
+        "method": "POST",
+        "path": "/items",
+        "description": "Submit a visitor contact message or project feedback",
+        "requestBody": "{ message: string, email?: string }",
+        "response": "{ id: number, success: boolean }"
+      }
+    ]
+  },
+  "storage": {
+    "sql": true,
+    "files": false
+  },
+  "promotion": {
+    "state": "embedded"
+  },
+  "access": {
+    "allowedCallerApps": [
+      "origin"
+    ]
+  }
+}

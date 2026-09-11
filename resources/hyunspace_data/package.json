@@ -1,0 +1,5 @@
+{
+  "name": "hyunspace_data-resource",
+  "type": "module",
+  "main": "index.ts"
+}

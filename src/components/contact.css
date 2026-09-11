@@ -1,0 +1,16 @@
+.contact-sheet { color:var(--scene-ink); font-family:'Manrope',sans-serif; }
+.contact-eyebrow,.contact-label,.contact-note { font:10px/1.6 'JetBrains Mono',monospace; }
+.contact-sheet h2 { font-weight:800; letter-spacing:-.05em; margin:12px 0 16px; }
+.contact-intro { font-size:14px; line-height:1.7; max-width:480px; margin-bottom:28px; }
+.contact-links { border-top:1px solid var(--scene-ink); }
+.contact-links a,.discord-row { display:grid; grid-template-columns:110px minmax(0,1fr) auto; gap:12px; align-items:center; min-height:66px; padding:12px 0; border-bottom:1px solid color-mix(in srgb,var(--scene-ink) 34%,transparent); text-decoration:none; color:inherit; }
+.contact-links a:hover { background:var(--scene-ink); color:var(--scene-paper); }
+.contact-value { font-size:clamp(12px,1.4vw,16px); font-weight:700; overflow-wrap:anywhere; }
+.contact-label { color:inherit; }
+.discord-row button { font:10px 'JetBrains Mono',monospace; min-height:44px; cursor:pointer; text-decoration:underline; }
+.discord-handle { user-select:text; }
+.contact-note { margin-top:24px; color:var(--scene-muted); }
+.home-links { display:flex; gap:18px; margin-top:16px; font:10px 'JetBrains Mono',monospace; pointer-events:auto; }
+.home-links a { display:inline-flex; align-items:center; min-height:40px; color:var(--scene-muted); text-decoration:underline; text-underline-offset:4px; }
+.home-links a:hover { color:var(--scene-accent); }
+@media(max-width:480px) { .contact-links a,.discord-row { grid-template-columns:78px minmax(0,1fr) auto; gap:8px; } .contact-label { font-size:9px; } .discord-row button { max-width:64px; } }

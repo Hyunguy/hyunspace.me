@@ -1,0 +1,3652 @@
+{
+  "version": 1,
+  "generatedAt": 1788680918773,
+  "slots": [
+    {
+      "id": "section-button-text-8b32ff4a",
+      "label": "Section button text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "enable_gyro?",
+      "selector": "[data-fuser-slot-id=\"section-button-text-8b32ff4a\"]",
+      "domSlotId": "section-button-text-8b32ff4a",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-button-text-8b32ff4a\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "enable_gyro?",
+        "span": {
+          "start": 5362,
+          "end": 5390
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-db4a8d27",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "programmer, artist.",
+      "selector": "[data-fuser-slot-id=\"section-body-db4a8d27\"]",
+      "domSlotId": "section-body-db4a8d27",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-db4a8d27\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "programmer, artist.",
+        "span": {
+          "start": 6633,
+          "end": 6688
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-9ae167f2",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "everything here was built by human hands.",
+      "selector": "[data-fuser-slot-id=\"section-text-9ae167f2\"]",
+      "domSlotId": "section-text-9ae167f2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-9ae167f2\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "everything here was built by human hands.",
+        "span": {
+          "start": 7175,
+          "end": 7216
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-4b407a81",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "hyun",
+      "selector": "[data-fuser-slot-id=\"section-text-4b407a81\"]",
+      "domSlotId": "section-text-4b407a81",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-4b407a81\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "hyun",
+        "span": {
+          "start": 4827,
+          "end": 4831
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-e9083f4f",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "three.js / r3f",
+      "selector": "[data-fuser-slot-id=\"section-text-e9083f4f\"]",
+      "domSlotId": "section-text-e9083f4f",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-e9083f4f\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "three.js / r3f",
+        "span": {
+          "start": 4913,
+          "end": 4927
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-8e013ef8",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "react",
+      "selector": "[data-fuser-slot-id=\"section-text-8e013ef8\"]",
+      "domSlotId": "section-text-8e013ef8",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-8e013ef8\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "react",
+        "span": {
+          "start": 5009,
+          "end": 5014
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "find-hyun-online-link-text-2c917487",
+      "label": "Find Hyun Online link text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "github ↗",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-fe1d36e0\"]",
+      "domSlotId": "find-hyun-online-link-fe1d36e0",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-fe1d36e0\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "github ↗",
+        "span": {
+          "start": 4423,
+          "end": 4431
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "find-hyun-online-link-fe1d36e0",
+      "label": "Find Hyun Online link",
+      "kind": "link",
+      "confidence": "medium",
+      "value": "https://github.com/Hyunguy",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-fe1d36e0\"]",
+      "domSlotId": "find-hyun-online-link-fe1d36e0",
+      "props": {
+        "href": "https://github.com/Hyunguy"
+      },
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-fe1d36e0\"]",
+        "attr": "href"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/App.tsx",
+        "attr": "href",
+        "expected": "https://github.com/Hyunguy",
+        "span": {
+          "start": 4352,
+          "end": 4380
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "href"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "find-hyun-online-link-text-264c394c",
+      "label": "Find Hyun Online link text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "linkedin ↗",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-94b4668c\"]",
+      "domSlotId": "find-hyun-online-link-94b4668c",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-94b4668c\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "linkedin ↗",
+        "span": {
+          "start": 4538,
+          "end": 4548
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "find-hyun-online-link-94b4668c",
+      "label": "Find Hyun Online link",
+      "kind": "link",
+      "confidence": "medium",
+      "value": "https://www.linkedin.com/in/hyun-dev/",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-94b4668c\"]",
+      "domSlotId": "find-hyun-online-link-94b4668c",
+      "props": {
+        "href": "https://www.linkedin.com/in/hyun-dev/"
+      },
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-94b4668c\"]",
+        "attr": "href"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/App.tsx",
+        "attr": "href",
+        "expected": "https://www.linkedin.com/in/hyun-dev/",
+        "span": {
+          "start": 4456,
+          "end": 4495
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "href"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "find-hyun-online-link-text-43767a2d",
+      "label": "Find Hyun Online link text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "email ↗",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-850f79b1\"]",
+      "domSlotId": "find-hyun-online-link-850f79b1",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-850f79b1\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/App.tsx",
+        "expected": "email ↗",
+        "span": {
+          "start": 4608,
+          "end": 4615
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "find-hyun-online-link-850f79b1",
+      "label": "Find Hyun Online link",
+      "kind": "link",
+      "confidence": "medium",
+      "value": "mailto:hyuntheengineer@gmail.com",
+      "selector": "[data-fuser-slot-id=\"find-hyun-online-link-850f79b1\"]",
+      "domSlotId": "find-hyun-online-link-850f79b1",
+      "props": {
+        "href": "mailto:hyuntheengineer@gmail.com"
+      },
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/App.tsx",
+        "selector": "[data-fuser-slot-id=\"find-hyun-online-link-850f79b1\"]",
+        "attr": "href"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/App.tsx",
+        "attr": "href",
+        "expected": "mailto:hyuntheengineer@gmail.com",
+        "span": {
+          "start": 4573,
+          "end": 4607
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "href"
+      },
+      "groupId": "find-hyun-online",
+      "groupLabel": "Find Hyun Online"
+    },
+    {
+      "id": "section-text-f5be90ad",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "now",
+      "selector": "[data-fuser-slot-id=\"section-text-f5be90ad\"]",
+      "domSlotId": "section-text-f5be90ad",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-f5be90ad\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "now",
+        "dataName": "timeline",
+        "rowIndex": 0,
+        "field": "year"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-bee2f60a",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "2028",
+      "selector": "[data-fuser-slot-id=\"section-text-bee2f60a\"]",
+      "domSlotId": "section-text-bee2f60a",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-bee2f60a\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "2028",
+        "dataName": "timeline",
+        "rowIndex": 1,
+        "field": "year"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-89a8ba42",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "2025",
+      "selector": "[data-fuser-slot-id=\"section-text-89a8ba42\"]",
+      "domSlotId": "section-text-89a8ba42",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-89a8ba42\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "2025",
+        "dataName": "timeline",
+        "rowIndex": 2,
+        "field": "year"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-b222e307",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Current game work",
+      "selector": "[data-fuser-slot-id=\"section-title-b222e307\"]",
+      "domSlotId": "section-title-b222e307",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-b222e307\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Current game work",
+        "dataName": "timeline",
+        "rowIndex": 0,
+        "field": "title"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-b336ce89",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "B.E. Computer Engineering",
+      "selector": "[data-fuser-slot-id=\"section-title-b336ce89\"]",
+      "domSlotId": "section-title-b336ce89",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-b336ce89\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "B.E. Computer Engineering",
+        "dataName": "timeline",
+        "rowIndex": 1,
+        "field": "title"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-1efdfda8",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Electrical Engineer Co-op",
+      "selector": "[data-fuser-slot-id=\"section-title-1efdfda8\"]",
+      "domSlotId": "section-title-1efdfda8",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-1efdfda8\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Electrical Engineer Co-op",
+        "dataName": "timeline",
+        "rowIndex": 2,
+        "field": "title"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-61b531fb",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "My Dog Zorro · Arcadia Games Collective",
+      "selector": "[data-fuser-slot-id=\"section-body-61b531fb\"]",
+      "domSlotId": "section-body-61b531fb",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-61b531fb\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "My Dog Zorro · Arcadia Games Collective",
+        "dataName": "timeline",
+        "rowIndex": 0,
+        "field": "org"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-ad827e67",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Stevens Institute of Technology",
+      "selector": "[data-fuser-slot-id=\"section-body-ad827e67\"]",
+      "domSlotId": "section-body-ad827e67",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-ad827e67\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Stevens Institute of Technology",
+        "dataName": "timeline",
+        "rowIndex": 1,
+        "field": "org"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-2c436259",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "SRI International",
+      "selector": "[data-fuser-slot-id=\"section-body-2c436259\"]",
+      "domSlotId": "section-body-2c436259",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-2c436259\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "SRI International",
+        "dataName": "timeline",
+        "rowIndex": 2,
+        "field": "org"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-656214c1",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Currently working on Lemony Fresh at My Dog Zorro and making Prescription. Previously helped make Takedown Protocol at Arcadia Games Collective.",
+      "selector": "[data-fuser-slot-id=\"section-body-656214c1\"]",
+      "domSlotId": "section-body-656214c1",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-656214c1\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Currently working on Lemony Fresh at My Dog Zorro and making Prescription. Previously helped make Takedown Protocol at Arcadia Games Collective.",
+        "dataName": "timeline",
+        "rowIndex": 0,
+        "field": "desc"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-5a519f57",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Pursuing a B.E. with a Software Engineering minor on the co-op track.",
+      "selector": "[data-fuser-slot-id=\"section-body-5a519f57\"]",
+      "domSlotId": "section-body-5a519f57",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-5a519f57\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Pursuing a B.E. with a Software Engineering minor on the co-op track.",
+        "dataName": "timeline",
+        "rowIndex": 1,
+        "field": "desc"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-d7306e37",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Built C++ tooling for optical Fiber Bragg grating sensing in agentic pipelines.",
+      "selector": "[data-fuser-slot-id=\"section-body-d7306e37\"]",
+      "domSlotId": "section-body-d7306e37",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-d7306e37\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Built C++ tooling for optical Fiber Bragg grating sensing in agentic pipelines.",
+        "dataName": "timeline",
+        "rowIndex": 2,
+        "field": "desc"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "src-image-6f257edc",
+      "label": "Src image",
+      "kind": "image",
+      "confidence": "low",
+      "value": "",
+      "provenance": {
+        "type": "runtime",
+        "reason": "computed-media-source"
+      },
+      "editPolicy": "read-only"
+    },
+    {
+      "id": "section-text-c500645b",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "attach original media",
+      "selector": "[data-fuser-slot-id=\"section-text-c500645b\"]",
+      "domSlotId": "section-text-c500645b",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-c500645b\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "attach original media",
+        "span": {
+          "start": 1833,
+          "end": 1854
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-d4704229",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "// abt_primary_content",
+      "selector": "[data-fuser-slot-id=\"section-body-d4704229\"]",
+      "domSlotId": "section-body-d4704229",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-d4704229\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "// abt_primary_content",
+        "span": {
+          "start": 2488,
+          "end": 2510
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-813e1ce7",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "/ about. /",
+      "selector": "[data-fuser-slot-id=\"section-title-813e1ce7\"]",
+      "domSlotId": "section-title-813e1ce7",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-813e1ce7\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "/ about. /",
+        "span": {
+          "start": 2562,
+          "end": 2572
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "about-page-scroll-control-button-text-6aeddc99",
+      "label": "About Page Scroll Control button text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "scroll_up. ↑",
+      "selector": "[data-fuser-slot-id=\"about-page-scroll-control-button-text-6aeddc99\"]",
+      "domSlotId": "about-page-scroll-control-button-text-6aeddc99",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"about-page-scroll-control-button-text-6aeddc99\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "scroll_up. ↑",
+        "span": {
+          "start": 2871,
+          "end": 2883
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "about-page-scroll-controls",
+      "groupLabel": "About Page Scroll Controls"
+    },
+    {
+      "id": "inline-text-a1dd8d72",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "┋ ◇ ┋",
+      "baseValue": "┋ ◇ ┋",
+      "registryRevision": 1788680918773,
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "about-page-scroll-controls",
+      "groupLabel": "About Page Scroll Controls"
+    },
+    {
+      "id": "about-page-scroll-control-button-text-c6e5822f",
+      "label": "About Page Scroll Control button text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "scroll_down. ↓",
+      "selector": "[data-fuser-slot-id=\"about-page-scroll-control-button-text-c6e5822f\"]",
+      "domSlotId": "about-page-scroll-control-button-text-c6e5822f",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"about-page-scroll-control-button-text-c6e5822f\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "scroll_down. ↓",
+        "span": {
+          "start": 3048,
+          "end": 3062
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "about-page-scroll-controls",
+      "groupLabel": "About Page Scroll Controls"
+    },
+    {
+      "id": "section-text-64e20a47",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "01 / the short version",
+      "selector": "[data-fuser-slot-id=\"section-text-64e20a47\"]",
+      "domSlotId": "section-text-64e20a47",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-64e20a47\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "01 / the short version",
+        "span": {
+          "start": 3312,
+          "end": 3334
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-3b909d61",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "is a Stevens Institute of Technology ('28) student, building high-performance real-time interactive systems.",
+      "baseValue": "is a Stevens Institute of Technology ('28) student, building high-performance real-time interactive systems.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-3b909d61\"]",
+      "domSlotId": "section-body-3b909d61",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-3b909d61\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-b3acaa80",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "HYUN",
+      "selector": "[data-fuser-slot-id=\"section-text-b3acaa80\"]",
+      "domSlotId": "section-text-b3acaa80",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-b3acaa80\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "HYUN",
+        "span": {
+          "start": 3563,
+          "end": 3567
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-7cecd460",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "game programmer, graphics engineer, and toolmaker",
+      "selector": "[data-fuser-slot-id=\"section-text-7cecd460\"]",
+      "domSlotId": "section-text-7cecd460",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-7cecd460\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "game programmer, graphics engineer, and toolmaker",
+        "span": {
+          "start": 3706,
+          "end": 3755
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-2ee5f0b1",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "He writes gameplay systems and optimization pipelines for several games. He is currently working on at My Dog Zorro, helped make at Arcadia Games Collective, and is also making .",
+      "baseValue": "He writes gameplay systems and optimization pipelines for several games. He is currently working on at My Dog Zorro, helped make at Arcadia Games Collective, and is also making .",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-2ee5f0b1\"]",
+      "domSlotId": "section-body-2ee5f0b1",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-2ee5f0b1\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-3195e969",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Lemony Fresh",
+      "selector": "[data-fuser-slot-id=\"section-text-3195e969\"]",
+      "domSlotId": "section-text-3195e969",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-3195e969\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Lemony Fresh",
+        "span": {
+          "start": 4059,
+          "end": 4071
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-76a8f397",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Takedown Protocol",
+      "selector": "[data-fuser-slot-id=\"section-text-76a8f397\"]",
+      "domSlotId": "section-text-76a8f397",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-76a8f397\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Takedown Protocol",
+        "span": {
+          "start": 4185,
+          "end": 4202
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-81886b1d",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Prescription",
+      "selector": "[data-fuser-slot-id=\"section-text-81886b1d\"]",
+      "domSlotId": "section-text-81886b1d",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-81886b1d\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Prescription",
+        "span": {
+          "start": 4335,
+          "end": 4347
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-2eeaab03",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "02 / languages & frameworks",
+      "selector": "[data-fuser-slot-id=\"section-text-2eeaab03\"]",
+      "domSlotId": "section-text-2eeaab03",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-2eeaab03\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "02 / languages & frameworks",
+        "span": {
+          "start": 4536,
+          "end": 4567
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-29ff1359",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "03 / core compencies",
+      "selector": "[data-fuser-slot-id=\"section-text-29ff1359\"]",
+      "domSlotId": "section-text-29ff1359",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-29ff1359\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "03 / core compencies",
+        "span": {
+          "start": 4912,
+          "end": 4932
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-cd4bb436",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "04 / things with worlds inside them",
+      "selector": "[data-fuser-slot-id=\"section-text-bbcfa02c\"]",
+      "domSlotId": "section-text-bbcfa02c",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-bbcfa02c\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "04 / things with worlds inside them",
+        "span": {
+          "start": 5319,
+          "end": 5354
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-a2c24a2a",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Anything with a rich story pulls me in. I love , plus board games and turn-based games that reward a good plan.",
+      "baseValue": "Anything with a rich story pulls me in. I love , plus board games and turn-based games that reward a good plan.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-ffab2bed\"]",
+      "domSlotId": "section-body-ffab2bed",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-ffab2bed\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-3daa8bf7",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Project Moon, Metal Gear, Deep Rock Galactic, and NieR",
+      "selector": "[data-fuser-slot-id=\"section-text-3caa8a64\"]",
+      "domSlotId": "section-text-3caa8a64",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-3caa8a64\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Project Moon, Metal Gear, Deep Rock Galactic, and NieR",
+        "span": {
+          "start": 5590,
+          "end": 5644
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-7f0a78f3",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "05 / offscreen",
+      "selector": "[data-fuser-slot-id=\"section-text-634b9a43\"]",
+      "domSlotId": "section-text-634b9a43",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-634b9a43\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "05 / offscreen",
+        "span": {
+          "start": 6104,
+          "end": 6118
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-d82a1499",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Favorite anime: and",
+      "baseValue": "Favorite anime: and",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-d72a1306\"]",
+      "domSlotId": "section-body-d72a1306",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-d72a1306\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-81ef23e9",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Takopi’s Original Sin",
+      "selector": "[data-fuser-slot-id=\"section-text-7eef1f30\"]",
+      "domSlotId": "section-text-7eef1f30",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-7eef1f30\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Takopi’s Original Sin",
+        "span": {
+          "start": 6444,
+          "end": 6465
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-8abc38f7",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Akame ga Kill!",
+      "selector": "[data-fuser-slot-id=\"section-text-89bc3764\"]",
+      "domSlotId": "section-text-89bc3764",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-89bc3764\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Akame ga Kill!",
+        "span": {
+          "start": 6554,
+          "end": 6568
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-b296907b",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Also: figuring out how things work, programming, producing, making cool stuff, and becoming unbeatable at whatever catches my attention.",
+      "selector": "[data-fuser-slot-id=\"section-body-af968bc2\"]",
+      "domSlotId": "section-body-af968bc2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-af968bc2\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "Also: figuring out how things work, programming, producing, making cool stuff, and becoming unbeatable at whatever catches my attention.",
+        "span": {
+          "start": 6659,
+          "end": 6795
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-1f3e097b",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "GO CASTLE POINT & COLORSTACK",
+      "selector": "[data-fuser-slot-id=\"section-text-7e6f57f6\"]",
+      "domSlotId": "section-text-7e6f57f6",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-7e6f57f6\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "GO CASTLE POINT & COLORSTACK",
+        "span": {
+          "start": 6866,
+          "end": 6899
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "inline-text-18455288",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "♥",
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "ask-agent",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "♥",
+        "span": {
+          "start": 6924,
+          "end": 6925
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "heart",
+      "groupLabel": "Heart"
+    },
+    {
+      "id": "section-text-e53f5c54",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "06 / making a room for people",
+      "selector": "[data-fuser-slot-id=\"section-text-1e534202\"]",
+      "domSlotId": "section-text-1e534202",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-1e534202\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "06 / making a room for people",
+        "span": {
+          "start": 7112,
+          "end": 7141
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-2e336ea2",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "On campus, I’m a ; the biggest student-run anime convention in the U.S., with 5,000+ attendees and 25k+ followers across its channels.",
+      "baseValue": "On campus, I’m a ; the biggest student-run anime convention in the U.S., with 5,000+ attendees and 25k+ followers across its channels.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-01ca53f6\"]",
+      "domSlotId": "section-body-01ca53f6",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-01ca53f6\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-d4e495c5",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "community manager for Castle Point Con",
+      "selector": "[data-fuser-slot-id=\"section-text-d3e49432\"]",
+      "domSlotId": "section-text-d3e49432",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d3e49432\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "community manager for Castle Point Con",
+        "span": {
+          "start": 7379,
+          "end": 7417
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-963bb74b",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "I also helped build a 100-member community at Stevens for ColorStack, helping host LeetCode and career fair nights.",
+      "selector": "[data-fuser-slot-id=\"section-body-9b3bbf2a\"]",
+      "domSlotId": "section-body-9b3bbf2a",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-9b3bbf2a\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "I also helped build a 100-member community at Stevens for ColorStack, helping host LeetCode and career fair nights.",
+        "span": {
+          "start": 7614,
+          "end": 7729
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-1f404812",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "GO CASTLE POINT & COLORSTACK",
+      "selector": "[data-fuser-slot-id=\"section-body-7e6f57f6\"]",
+      "domSlotId": "section-body-7e6f57f6",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-7e6f57f6\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "GO CASTLE POINT & COLORSTACK",
+        "span": {
+          "start": 7800,
+          "end": 7833
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "inline-text-1e455bfa",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "♥",
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "ask-agent",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "♥",
+        "span": {
+          "start": 7858,
+          "end": 7859
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "heart",
+      "groupLabel": "Heart"
+    },
+    {
+      "id": "section-text-26d6f501",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "07 / chronological milestones",
+      "selector": "[data-fuser-slot-id=\"section-text-5edaf833\"]",
+      "domSlotId": "section-text-5edaf833",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/AboutSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-5edaf833\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/AboutSection.tsx",
+        "expected": "07 / chronological milestones",
+        "span": {
+          "start": 8192,
+          "end": 8221
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-9e3bbf50",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "business email",
+      "selector": "[data-fuser-slot-id=\"section-text-9e3bbf50\"]",
+      "domSlotId": "section-text-9e3bbf50",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-9e3bbf50\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 0,
+        "field": "label",
+        "expected": "business email"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-0b5ed31f",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "linkedin",
+      "selector": "[data-fuser-slot-id=\"section-text-0b5ed31f\"]",
+      "domSlotId": "section-text-0b5ed31f",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-0b5ed31f\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 1,
+        "field": "label",
+        "expected": "linkedin"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-14152af8",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "github",
+      "selector": "[data-fuser-slot-id=\"section-text-14152af8\"]",
+      "domSlotId": "section-text-14152af8",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-14152af8\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 2,
+        "field": "label",
+        "expected": "github"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-ead3a72e",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "the actual site",
+      "selector": "[data-fuser-slot-id=\"section-text-ead3a72e\"]",
+      "domSlotId": "section-text-ead3a72e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-ead3a72e\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 3,
+        "field": "label",
+        "expected": "the actual site"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-df362204",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "hyuntheengineer@gmail.com",
+      "selector": "[data-fuser-slot-id=\"section-text-df362204\"]",
+      "domSlotId": "section-text-df362204",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-df362204\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 0,
+        "field": "text",
+        "expected": "hyuntheengineer@gmail.com"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-bea532e2",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "hyun-dev",
+      "selector": "[data-fuser-slot-id=\"section-text-bea532e2\"]",
+      "domSlotId": "section-text-bea532e2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-bea532e2\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 1,
+        "field": "text",
+        "expected": "hyun-dev"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-c554d256",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Hyunguy",
+      "selector": "[data-fuser-slot-id=\"section-text-c554d256\"]",
+      "domSlotId": "section-text-c554d256",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-c554d256\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 2,
+        "field": "text",
+        "expected": "Hyunguy"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-a35d1904",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "hyunspace.me",
+      "selector": "[data-fuser-slot-id=\"section-text-a35d1904\"]",
+      "domSlotId": "section-text-a35d1904",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-a35d1904\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "data-field",
+        "filePath": "src/components/ContactSection.tsx",
+        "dataName": "links",
+        "rowIndex": 3,
+        "field": "text",
+        "expected": "hyunspace.me"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-d16ab3b6",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "// just_the_essentials_ :)",
+      "selector": "[data-fuser-slot-id=\"section-body-e671908a\"]",
+      "domSlotId": "section-body-e671908a",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-e671908a\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "// just_the_essentials_ :)",
+        "span": {
+          "start": 864,
+          "end": 890
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-827e4f74",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "let’s connect.",
+      "selector": "[data-fuser-slot-id=\"section-title-83808f9e\"]",
+      "domSlotId": "section-title-83808f9e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-83808f9e\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "let’s connect.",
+        "span": {
+          "start": 947,
+          "end": 961
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-13f4dc4b",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "For game development, graphics programming, research, or something worth making together.",
+      "selector": "[data-fuser-slot-id=\"section-body-9eed6857\"]",
+      "domSlotId": "section-body-9eed6857",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-9eed6857\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "For game development, graphics programming, research, or something worth making together.",
+        "span": {
+          "start": 1043,
+          "end": 1132
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "inline-text-e6a77faf",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "↗",
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "ask-agent",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "↗",
+        "span": {
+          "start": 1922,
+          "end": 1923
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-0720195e",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "discord",
+      "selector": "[data-fuser-slot-id=\"section-text-7a1abe39\"]",
+      "domSlotId": "section-text-7a1abe39",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-7a1abe39\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "discord",
+        "span": {
+          "start": 2054,
+          "end": 2061
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-7e849cf2",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "mrhyun",
+      "selector": "[data-fuser-slot-id=\"section-text-0389eb7f\"]",
+      "domSlotId": "section-text-0389eb7f",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ContactSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-0389eb7f\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ContactSection.tsx",
+        "expected": "mrhyun",
+        "span": {
+          "start": 2174,
+          "end": 2180
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "core-skills-scroll-control-button-text-fd3f23d5",
+      "label": "Core Skills Scroll Control button text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "scroll_up. ↑",
+      "selector": "[data-fuser-slot-id=\"core-skills-scroll-control-button-text-7e3c1d51\"]",
+      "domSlotId": "core-skills-scroll-control-button-text-7e3c1d51",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"core-skills-scroll-control-button-text-7e3c1d51\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "expected": "scroll_up. ↑",
+        "span": {
+          "start": 785,
+          "end": 797
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "core-skills-scroll-controls",
+      "groupLabel": "Core Skills Scroll Controls"
+    },
+    {
+      "id": "inline-text-3d9ce6fb",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "┋ ◇ ┋",
+      "baseValue": "┋ ◇ ┋",
+      "registryRevision": 1788680918773,
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "compound-text",
+        "reason": "multiple static text parts"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "core-skills-scroll-controls",
+      "groupLabel": "Core Skills Scroll Controls"
+    },
+    {
+      "id": "core-skills-scroll-control-button-text-88d58c8c",
+      "label": "Core Skills Scroll Control button text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "scroll_down. ↓",
+      "selector": "[data-fuser-slot-id=\"core-skills-scroll-control-button-text-85d587d3\"]",
+      "domSlotId": "core-skills-scroll-control-button-text-85d587d3",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"core-skills-scroll-control-button-text-85d587d3\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "expected": "scroll_down. ↓",
+        "span": {
+          "start": 977,
+          "end": 991
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "core-skills-scroll-controls",
+      "groupLabel": "Core Skills Scroll Controls"
+    },
+    {
+      "id": "section-text-f461261c",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "//_core_competencies",
+      "selector": "[data-fuser-slot-id=\"section-text-f3612489\"]",
+      "domSlotId": "section-text-f3612489",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-f3612489\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "expected": "//_core_competencies",
+        "span": {
+          "start": 1318,
+          "end": 1338
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-d6bc3108",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "A cross-disciplinary practice for building games, visual systems, and the stories around them.",
+      "selector": "[data-fuser-slot-id=\"section-body-dbbc38e7\"]",
+      "domSlotId": "section-body-dbbc38e7",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-dbbc38e7\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "expected": "A cross-disciplinary practice for building games, visual systems, and the stories around them.",
+        "span": {
+          "start": 1429,
+          "end": 1523
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-905d1a54",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "//_languages_&_frameworks",
+      "selector": "[data-fuser-slot-id=\"section-body-935d1f0d\"]",
+      "domSlotId": "section-body-935d1f0d",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-935d1f0d\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/CoreSkillsSection.tsx",
+        "expected": "//_languages_&_frameworks",
+        "span": {
+          "start": 1844,
+          "end": 1873
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "floating-fun-fact-window-text-aa1ebcd8",
+      "label": "Floating Fun Fact Window text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "/ fun_facts · drag a title /",
+      "selector": "[data-fuser-slot-id=\"floating-fun-fact-window-text-2f21ccce\"]",
+      "domSlotId": "floating-fun-fact-window-text-2f21ccce",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/FunFactWindows.tsx",
+        "selector": "[data-fuser-slot-id=\"floating-fun-fact-window-text-2f21ccce\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/FunFactWindows.tsx",
+        "expected": "/ fun_facts · drag a title /",
+        "span": {
+          "start": 908,
+          "end": 936
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      },
+      "groupId": "floating-fun-fact-windows",
+      "groupLabel": "Floating Fun Fact Windows"
+    },
+    {
+      "id": "section-text-10c07216",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Languages",
+      "baseValue": "Languages",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-10c07216\"]",
+      "domSlotId": "section-text-10c07216",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/SystemsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-10c07216\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-d75939fc",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Game & Graphics",
+      "baseValue": "Game & Graphics",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-d75939fc\"]",
+      "domSlotId": "section-text-d75939fc",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/SystemsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d75939fc\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-f7cc7ac8",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Data & AI",
+      "baseValue": "Data & AI",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-f7cc7ac8\"]",
+      "domSlotId": "section-text-f7cc7ac8",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/SystemsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-f7cc7ac8\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-95cf9bd8",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "/ Stack & Competencies /",
+      "selector": "[data-fuser-slot-id=\"section-text-06affa10\"]",
+      "domSlotId": "section-text-06affa10",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/SystemsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-06affa10\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/SystemsSection.tsx",
+        "expected": "/ Stack & Competencies /",
+        "span": {
+          "start": 694,
+          "end": 722
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-a1709c9f",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "SYSTEMS & TOOLING",
+      "selector": "[data-fuser-slot-id=\"section-title-a08c7189\"]",
+      "domSlotId": "section-title-a08c7189",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/SystemsSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-a08c7189\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/SystemsSection.tsx",
+        "expected": "SYSTEMS & TOOLING",
+        "span": {
+          "start": 863,
+          "end": 904
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "scene-reference-image-2b258fa4",
+      "label": "Scene Reference image",
+      "kind": "image",
+      "confidence": "low",
+      "value": "",
+      "provenance": {
+        "type": "runtime",
+        "reason": "computed-media-source"
+      },
+      "editPolicy": "read-only"
+    },
+    {
+      "id": "section-text-a3ba8627",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "R3F PROFILER",
+      "selector": "[data-fuser-slot-id=\"section-text-9fb84144\"]",
+      "domSlotId": "section-text-9fb84144",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-9fb84144\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "R3F PROFILER",
+        "span": {
+          "start": 23353,
+          "end": 23365
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-cb5a3350",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "LIVE",
+      "selector": "[data-fuser-slot-id=\"section-text-d15a3cc2\"]",
+      "domSlotId": "section-text-d15a3cc2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d15a3cc2\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "LIVE",
+        "span": {
+          "start": 23463,
+          "end": 23467
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-4041779c",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "FPS:",
+      "selector": "[data-fuser-slot-id=\"section-text-3e417476\"]",
+      "domSlotId": "section-text-3e417476",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-3e417476\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "FPS:",
+        "span": {
+          "start": 23602,
+          "end": 23606
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-1522d761",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "DRAWS:",
+      "selector": "[data-fuser-slot-id=\"section-text-0b22c7a3\"]",
+      "domSlotId": "section-text-0b22c7a3",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-0b22c7a3\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "DRAWS:",
+        "span": {
+          "start": 23788,
+          "end": 23794
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-48efdf93",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "TRIS:",
+      "selector": "[data-fuser-slot-id=\"section-text-52efef51\"]",
+      "domSlotId": "section-text-52efef51",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-52efef51\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "TRIS:",
+        "span": {
+          "start": 23978,
+          "end": 23983
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-24519216",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Halftone + RGB Fringing Active",
+      "selector": "[data-fuser-slot-id=\"section-text-2653d3d3\"]",
+      "domSlotId": "section-text-2653d3d3",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-2653d3d3\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/ThreeCanvas.tsx",
+        "expected": "Halftone + RGB Fringing Active",
+        "span": {
+          "start": 24203,
+          "end": 24257
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-156df82b",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Game Development (3D Platformer)",
+      "baseValue": "Game Development (3D Platformer)",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-156df82b\"]",
+      "domSlotId": "section-text-156df82b",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-156df82b\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-6b6341b9",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Game Jam (Touhou-inspired Shooter)",
+      "baseValue": "Game Jam (Touhou-inspired Shooter)",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-6b6341b9\"]",
+      "domSlotId": "section-text-6b6341b9",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-6b6341b9\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-1e7c942c",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Arcadia Games Collective",
+      "baseValue": "Arcadia Games Collective",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-1e7c942c\"]",
+      "domSlotId": "section-text-1e7c942c",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-1e7c942c\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-e56d9ef0",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Lemony Fresh",
+      "baseValue": "Lemony Fresh",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-e56d9ef0\"]",
+      "domSlotId": "section-title-e56d9ef0",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-e56d9ef0\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-592a82ab",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Fairy's Inferno",
+      "baseValue": "Fairy's Inferno",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-592a82ab\"]",
+      "domSlotId": "section-title-592a82ab",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-592a82ab\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-96524d19",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Takedown Protocol",
+      "baseValue": "Takedown Protocol",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-96524d19\"]",
+      "domSlotId": "section-title-96524d19",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-96524d19\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-6cac847d",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Programmer / Producer @ My Dog Zorro",
+      "baseValue": "Programmer / Producer @ My Dog Zorro",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-6cac847d\"]",
+      "domSlotId": "section-text-6cac847d",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-6cac847d\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-2c20bfbf",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Lead Gameplay & Shader Dev",
+      "baseValue": "Lead Gameplay & Shader Dev",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-2c20bfbf\"]",
+      "domSlotId": "section-text-2c20bfbf",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-2c20bfbf\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-cfd2148c",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Systems & Combat Developer",
+      "baseValue": "Systems & Combat Developer",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-cfd2148c\"]",
+      "domSlotId": "section-text-cfd2148c",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-cfd2148c\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-9e43c2d8",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "3D action-adventure platformer. Selected for PAX East 2026 Official Selection. Built custom player controllers, physics interactions, and optimization pipelines in Unity/C#.",
+      "baseValue": "3D action-adventure platformer. Selected for PAX East 2026 Official Selection. Built custom player controllers, physics interactions, and optimization pipelines in Unity/C#.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-9e43c2d8\"]",
+      "domSlotId": "section-body-9e43c2d8",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-9e43c2d8\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-faeb1348",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Touhou-inspired vertical bullet-hell shooter created during a game jam with a 4-person team. Shipped a high-performance WebGL build to itch.io with custom particle shaders.",
+      "baseValue": "Touhou-inspired vertical bullet-hell shooter created during a game jam with a 4-person team. Shipped a high-performance WebGL build to itch.io with custom particle shaders.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-faeb1348\"]",
+      "domSlotId": "section-body-faeb1348",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-faeb1348\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-b9ee77ad",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Fast-paced 2D platform fighter featuring frame-accurate hitboxes, rollback state buffers, and responsive input handling.",
+      "baseValue": "Fast-paced 2D platform fighter featuring frame-accurate hitboxes, rollback state buffers, and responsive input handling.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-b9ee77ad\"]",
+      "domSlotId": "section-body-b9ee77ad",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-b9ee77ad\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-2a7d51b1",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Electro-Optics Group / Active Secret Clearance",
+      "baseValue": "Electro-Optics Group / Active Secret Clearance",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-2a7d51b1\"]",
+      "domSlotId": "section-text-2a7d51b1",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-2a7d51b1\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-7435b34f",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "LangChain & MATLAB AI Studio",
+      "baseValue": "LangChain & MATLAB AI Studio",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-7435b34f\"]",
+      "domSlotId": "section-text-7435b34f",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-7435b34f\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-fa8d28b7",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Fiber Bragg Grating Sensing Tooling",
+      "baseValue": "Fiber Bragg Grating Sensing Tooling",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-fa8d28b7\"]",
+      "domSlotId": "section-title-fa8d28b7",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-fa8d28b7\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-985e7e74",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "NL2SQL & Bearing Fault Diagnosis Model",
+      "baseValue": "NL2SQL & Bearing Fault Diagnosis Model",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-985e7e74\"]",
+      "domSlotId": "section-title-985e7e74",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-985e7e74\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-efdf87a7",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Electrical Engineer Co-op @ SRI International",
+      "baseValue": "Electrical Engineer Co-op @ SRI International",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-efdf87a7\"]",
+      "domSlotId": "section-text-efdf87a7",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-efdf87a7\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-fb212179",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Break Through Tech AI Fellow @ Cornell Tech",
+      "baseValue": "Break Through Tech AI Fellow @ Cornell Tech",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-fb212179\"]",
+      "domSlotId": "section-text-fb212179",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-fb212179\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-cb39c308",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Developed high-throughput C++ tooling inside an agentic optical sensing pipeline. Analyzed wavelength-shifted light signals to detect real-time mechanical strain.",
+      "baseValue": "Developed high-throughput C++ tooling inside an agentic optical sensing pipeline. Analyzed wavelength-shifted light signals to detect real-time mechanical strain.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-cb39c308\"]",
+      "domSlotId": "section-body-cb39c308",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-cb39c308\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-4021c274",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Engineered a Natural-Language-to-SQL database translation pipeline (LangChain) and built a bearing fault diagnosis model for MathWorks' AI Studio Challenge.",
+      "baseValue": "Engineered a Natural-Language-to-SQL database translation pipeline (LangChain) and built a bearing fault diagnosis model for MathWorks' AI Studio Challenge.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-body-4021c274\"]",
+      "domSlotId": "section-body-4021c274",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-4021c274\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-bb6cb754",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "EVENTIDE",
+      "baseValue": "EVENTIDE",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-bb6cb754\"]",
+      "domSlotId": "section-title-bb6cb754",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-bb6cb754\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-c23846d7",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "GEDCOM Parser",
+      "baseValue": "GEDCOM Parser",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-c23846d7\"]",
+      "domSlotId": "section-title-c23846d7",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-c23846d7\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-12d54dd2",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Arcane Odyssey Macro",
+      "baseValue": "Arcane Odyssey Macro",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-12d54dd2\"]",
+      "domSlotId": "section-title-12d54dd2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-12d54dd2\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-ed967d19",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Discord Newsletter Bot",
+      "baseValue": "Discord Newsletter Bot",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-ed967d19\"]",
+      "domSlotId": "section-title-ed967d19",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-ed967d19\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-0982864b",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Stevens Lab Monte Carlo",
+      "baseValue": "Stevens Lab Monte Carlo",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-title-0982864b\"]",
+      "domSlotId": "section-title-0982864b",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-0982864b\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-83a4ffa2",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Modern React/Vite e-commerce application with responsive state management.",
+      "baseValue": "Modern React/Vite e-commerce application with responsive state management.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-83a4ffa2\"]",
+      "domSlotId": "section-text-83a4ffa2",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-83a4ffa2\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-2b4d1d46",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Agile sprint project parsing complex genealogical tree datasets.",
+      "baseValue": "Agile sprint project parsing complex genealogical tree datasets.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-2b4d1d46\"]",
+      "domSlotId": "section-text-2b4d1d46",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-2b4d1d46\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-d37e3b7e",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "AutoHotkey v2 automated fishing macro with pixel detection.",
+      "baseValue": "AutoHotkey v2 automated fishing macro with pixel detection.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-d37e3b7e\"]",
+      "domSlotId": "section-text-d37e3b7e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d37e3b7e\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-af5c165a",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Python/discord.py bot aggregating tech articles and updates.",
+      "baseValue": "Python/discord.py bot aggregating tech articles and updates.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-af5c165a\"]",
+      "domSlotId": "section-text-af5c165a",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-af5c165a\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-8e72081e",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "high",
+      "value": "Multi-Scale Imaging research presented to U.S. Army engineers at Picatinny Arsenal.",
+      "baseValue": "Multi-Scale Imaging research presented to U.S. Army engineers at Picatinny Arsenal.",
+      "registryRevision": 1788680918773,
+      "selector": "[data-fuser-slot-id=\"section-text-8e72081e\"]",
+      "domSlotId": "section-text-8e72081e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-8e72081e\"]"
+      },
+      "editPolicy": "override-static",
+      "overrideTarget": {
+        "kind": "static-collection-field",
+        "reason": "ambiguous static collection order"
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-6595117b",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "/ Selected Works /",
+      "selector": "[data-fuser-slot-id=\"section-text-d59c7d90\"]",
+      "domSlotId": "section-text-d59c7d90",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d59c7d90\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "/ Selected Works /",
+        "span": {
+          "start": 4350,
+          "end": 4368
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-4b3e67be",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "WORK ; FEATURED",
+      "selector": "[data-fuser-slot-id=\"section-title-3a041c6e\"]",
+      "domSlotId": "section-title-3a041c6e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-3a041c6e\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "WORK ; FEATURED",
+        "span": {
+          "start": 4509,
+          "end": 4544
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-body-960d6b0b",
+      "label": "Section body",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "Real-time interactive games, custom game engines, and production builds.",
+      "selector": "[data-fuser-slot-id=\"section-body-8e0b1fdc\"]",
+      "domSlotId": "section-body-8e0b1fdc",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-body-8e0b1fdc\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "Real-time interactive games, custom game engines, and production builds.",
+        "span": {
+          "start": 4659,
+          "end": 4751
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "image-4beaf187",
+      "label": "Image",
+      "kind": "image",
+      "confidence": "low",
+      "value": "",
+      "provenance": {
+        "type": "runtime",
+        "reason": "computed-media-source"
+      },
+      "editPolicy": "read-only"
+    },
+    {
+      "id": "section-text-4f3260ff",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "[3D Interactive Render]",
+      "selector": "[data-fuser-slot-id=\"section-text-df39ff74\"]",
+      "domSlotId": "section-text-df39ff74",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-df39ff74\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "[3D Interactive Render]",
+        "span": {
+          "start": 5806,
+          "end": 5829
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-49d54e19",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "/ GitHub ; live repository index /",
+      "selector": "[data-fuser-slot-id=\"section-text-3a1dd1ca\"]",
+      "domSlotId": "section-text-3a1dd1ca",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-3a1dd1ca\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "/ GitHub ; live repository index /",
+        "span": {
+          "start": 9008,
+          "end": 9042
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-7ee8c378",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "LATEST PUBLIC WORK",
+      "selector": "[data-fuser-slot-id=\"section-title-80e8c69e\"]",
+      "domSlotId": "section-title-80e8c69e",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-80e8c69e\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "LATEST PUBLIC WORK",
+        "span": {
+          "start": 9187,
+          "end": 9205
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-link-text-a1e1455e",
+      "label": "Section link text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "github.com/Hyunguy ↗",
+      "selector": "[data-fuser-slot-id=\"section-link-7a292eaa\"]",
+      "domSlotId": "section-link-7a292eaa",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-link-7a292eaa\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "github.com/Hyunguy ↗",
+        "span": {
+          "start": 9500,
+          "end": 9520
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-link-6c2918a0",
+      "label": "Section link",
+      "kind": "link",
+      "confidence": "medium",
+      "value": "https://github.com/Hyunguy",
+      "selector": "[data-fuser-slot-id=\"section-link-7a292eaa\"]",
+      "domSlotId": "section-link-7a292eaa",
+      "props": {
+        "href": "https://github.com/Hyunguy"
+      },
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-link-7a292eaa\"]",
+        "attr": "href"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/components/WorkSection.tsx",
+        "attr": "href",
+        "expected": "https://github.com/Hyunguy",
+        "span": {
+          "start": 9289,
+          "end": 9317
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "href"
+      }
+    },
+    {
+      "id": "section-text-cdef659c",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "[ syncing public repositories… ]",
+      "selector": "[data-fuser-slot-id=\"section-text-dbf1ba3d\"]",
+      "domSlotId": "section-text-dbf1ba3d",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-dbf1ba3d\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "[ syncing public repositories… ]",
+        "span": {
+          "start": 9677,
+          "end": 9709
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-d34731b9",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "[ live repository index unavailable ; visit github.com/Hyunguy ]",
+      "selector": "[data-fuser-slot-id=\"section-text-b10432bf\"]",
+      "domSlotId": "section-text-b10432bf",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-b10432bf\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "[ live repository index unavailable ; visit github.com/Hyunguy ]",
+        "span": {
+          "start": 9852,
+          "end": 9916
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "inline-text-7bb54769",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": "#",
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "ask-agent",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "#",
+        "span": {
+          "start": 10973,
+          "end": 10974
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-0d66b071",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "/ Systems & AI /",
+      "selector": "[data-fuser-slot-id=\"section-text-106b3258\"]",
+      "domSlotId": "section-text-106b3258",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-106b3258\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "/ Systems & AI /",
+        "span": {
+          "start": 11320,
+          "end": 11336
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-title-ee436d4e",
+      "label": "Section title",
+      "kind": "text",
+      "confidence": "high",
+      "value": "WORK ; ENGINEERING",
+      "selector": "[data-fuser-slot-id=\"section-title-b7a23230\"]",
+      "domSlotId": "section-title-b7a23230",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-title-b7a23230\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "WORK ; ENGINEERING",
+        "span": {
+          "start": 11479,
+          "end": 11521
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "inline-text-5d771c2f",
+      "label": "Inline text",
+      "kind": "text",
+      "confidence": "low",
+      "value": ">",
+      "provenance": {
+        "type": "runtime",
+        "reason": "low-confidence diagnostic"
+      },
+      "editPolicy": "ask-agent",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": ">",
+        "span": {
+          "start": 13967,
+          "end": 13971
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "section-text-d3331845",
+      "label": "Section text",
+      "kind": "text",
+      "confidence": "medium",
+      "value": "ALSO BUILT",
+      "selector": "[data-fuser-slot-id=\"section-text-d82ea2f6\"]",
+      "domSlotId": "section-text-d82ea2f6",
+      "provenance": {
+        "type": "static-source",
+        "filePath": "src/components/WorkSection.tsx",
+        "selector": "[data-fuser-slot-id=\"section-text-d82ea2f6\"]"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-text",
+        "filePath": "src/components/WorkSection.tsx",
+        "expected": "ALSO BUILT",
+        "span": {
+          "start": 14038,
+          "end": 14048
+        }
+      },
+      "runtimeApply": {
+        "kind": "text"
+      }
+    },
+    {
+      "id": "scene-reference-image-8b30e28d",
+      "label": "Scene Reference image",
+      "kind": "image",
+      "confidence": "low",
+      "value": "",
+      "provenance": {
+        "type": "runtime",
+        "reason": "computed-media-source"
+      },
+      "editPolicy": "read-only"
+    },
+    {
+      "id": "va11-heads",
+      "label": "Src image",
+      "kind": "image",
+      "confidence": "medium",
+      "value": "/__fuser/media/va11-heads",
+      "props": {
+        "src": "/__fuser/media/va11-heads"
+      },
+      "provenance": {
+        "type": "runtime",
+        "reason": "deterministic-media-source"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/components/AboutSection.tsx",
+        "attr": "src",
+        "expected": "/__fuser/media/va11-heads",
+        "span": {
+          "start": 5558,
+          "end": 5585
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "src"
+      }
+    },
+    {
+      "id": "va11-city",
+      "label": "Src image",
+      "kind": "image",
+      "confidence": "medium",
+      "value": "/__fuser/media/va11-city",
+      "props": {
+        "src": "/__fuser/media/va11-city"
+      },
+      "provenance": {
+        "type": "runtime",
+        "reason": "deterministic-media-source"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/components/AboutSection.tsx",
+        "attr": "src",
+        "expected": "/__fuser/media/va11-city",
+        "span": {
+          "start": 5650,
+          "end": 5676
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "src"
+      }
+    },
+    {
+      "id": "takopi-moment",
+      "label": "Src image",
+      "kind": "image",
+      "confidence": "medium",
+      "value": "/__fuser/media/takopi-moment",
+      "props": {
+        "src": "/__fuser/media/takopi-moment"
+      },
+      "provenance": {
+        "type": "runtime",
+        "reason": "deterministic-media-source"
+      },
+      "editPolicy": "replace-static",
+      "rewriteTarget": {
+        "kind": "jsx-attr",
+        "filePath": "src/components/AboutSection.tsx",
+        "attr": "src",
+        "expected": "/__fuser/media/takopi-moment",
+        "span": {
+          "start": 5982,
+          "end": 6012
+        }
+      },
+      "runtimeApply": {
+        "kind": "attribute",
+        "attr": "src"
+      }
+    }
+  ]
+}

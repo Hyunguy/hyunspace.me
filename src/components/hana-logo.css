@@ -1,0 +1,11 @@
+.hana-logo { width:76px; height:76px; flex:0 0 auto; padding:0; border:0; background:transparent; color:#000; pointer-events:auto; cursor:pointer; display:block; }
+.hana-logo svg { width:100%; height:100%; overflow:visible; }
+.hana-piece { animation:hana-assemble .85s cubic-bezier(.16,1,.3,1) both; }
+.hana-outline { stroke-dasharray:1; animation:hana-outline 1.3s ease both; }
+.hana-pillar { transform-origin:50px 50px; animation:hana-pillar .6s .65s ease both; }
+.hana-logo:hover { color:#222; }
+@keyframes hana-assemble { from { opacity:0; transform:translate(var(--dx),var(--dy)); } to { opacity:1; transform:translate(0,0); } }
+@keyframes hana-outline { from { stroke-dashoffset:1; opacity:0; } to { stroke-dashoffset:0; opacity:1; } }
+@keyframes hana-pillar { from { transform:scaleY(0); } to { transform:scaleY(1); } }
+@media(max-width:640px) { .hana-logo { width:56px; height:56px; } }
+@media(prefers-reduced-motion:reduce) { .hana-logo * { animation:none!important; } }
