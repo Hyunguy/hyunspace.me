@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from '@fuser/vendor/react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from '@fuser/vendor/react';
 import ThreeCanvas from './components/ThreeCanvas';
 import GlitchText from './components/GlitchText';
 import HanaLogo from './components/HanaLogo';
 import SectionView from './components/SectionView';
 import { THEMES, themeOrder, type ThemeName } from './theme';
 import './experience.css';
+import { bounceEntrance } from './components/bounceEntrance';
 
 export type SectionType = 'home' | 'about' | 'skills' | 'projects' | 'systems' | 'contact';
 const menu: SectionType[] = ['about', 'projects', 'contact'];
@@ -18,6 +19,17 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
   const [gyroMessage, setGyroMessage] = useState('');
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [themeName, setThemeName] = useState<ThemeName>('light');
+  const homeSurface = useRef<HTMLDivElement>(null);
+  useLayoutEffect(() => {
+    if (activeSection !== 'home' || !homeSurface.current) return;
+    const root = homeSurface.current;
+    return bounceEntrance([
+      Array.from(root.querySelectorAll<HTMLElement>('.menu-link')),
+      Array.from(root.querySelectorAll<HTMLElement>('.home-metadata > div')),
+      Array.from(root.querySelectorAll<HTMLElement>('.home-links a')),
+      Array.from(root.querySelectorAll<HTMLElement>('.home-footer button')),
+    ]);
+  }, [activeSection]);
   const transitionTimer = useRef<ReturnType<typeof setTimeout>>();
   const theme = THEMES[themeName];
   const cycleTheme = () => setThemeName((current) => themeOrder[(themeOrder.indexOf(current) + 1) % themeOrder.length]);
@@ -68,7 +80,7 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
 
     <ThreeCanvas theme={themeName === 'dark' ? 'dark' : 'light'} backgroundColor={theme.background} accentColor={theme.accent} lineColor={theme.line} renderMode="render" showProfiler={false} gyroEnabled={gyroEnabled} activeSection={activeSection} isTransitioning={isTransitioning} hoveredMenu={hoveredMenu} sceneReference={sceneReference} />
     <main className="relative z-10 h-full w-full max-w-7xl mx-auto px-4 sm:px-8 py-6 pointer-events-none">
-      {activeSection === 'home' ? <div className="home-surface">
+      {activeSection === 'home' ? <div ref={homeSurface} className="home-surface">
         <button data-fuser-slot-id="section-button-text-8b32ff4a" onClick={requestGyro} className="gyro-button" aria-pressed={gyroEnabled}>enable_gyro? {gyroEnabled ? '[on]' : ''}<span>{gyroMessage}</span></button>
         <div className="home-brand">
           <div className="flex items-center gap-3"><HanaLogo /><h1 className="text-4xl sm:text-6xl font-display font-extrabold tracking-tighter leading-none"><GlitchText text="hyun" /></h1></div>

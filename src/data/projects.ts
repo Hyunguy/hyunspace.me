@@ -8,6 +8,8 @@ export type Project = {
   cover?: string;
   coverAlt?: string;
   link?: string;
+  linkLabel?: string;
+  gallery?: { src: string; alt: string; caption: string; link?: string }[];
   chapters: { title: string; body: string; points?: string[] }[];
 };
 
@@ -18,16 +20,28 @@ export const projects: Project[] = [
     role: 'Programmer / Producer · My Dog Zorro',
     summary: 'A 3D action-adventure platformer, built with Unity and C#.',
     tags: ['Unity', 'C#', 'Gameplay', 'Production'],
+    cover: '/projects/lemony-fresh.png', coverAlt: 'Lemony Fresh title artwork',
+    link: 'https://store.steampowered.com/app/4450050/Lemony_Fresh/', linkLabel: 'Wishlist on Steam',
+    gallery: [
+      { src: '/projects/lemony-steam-1.jpg', alt: 'Lemony Fresh gameplay screenshot 1', caption: 'Lemony Fresh / official Steam screenshot 01' },
+      { src: '/projects/lemony-steam-2.jpg', alt: 'Lemony Fresh gameplay screenshot 2', caption: 'Lemony Fresh / official Steam screenshot 02' },
+      { src: '/projects/lemony-steam-3.jpg', alt: 'Lemony Fresh gameplay screenshot 3', caption: 'Lemony Fresh / official Steam screenshot 03' },
+      { src: '/projects/lemony-steam-4.jpg', alt: 'Lemony Fresh gameplay screenshot 4', caption: 'Lemony Fresh / official Steam screenshot 04' },
+      { src: '/projects/lemony-playnyc.jpg', alt: 'Lemony Fresh booth and gameplay display at PlayNYC', caption: 'PlayNYC / preview of my LinkedIn video post', link: 'https://www.linkedin.com/feed/update/urn:li:activity:7497842255802572800/' },
+    ],
     chapters: [
       { title: 'Movement, interaction, feel.', body: 'My work on Lemony Fresh spans programming and production at My Dog Zorro. The project brings together character movement, physics interactions, and real-time performance.' },
       { title: 'Inside the gameplay.', body: 'I build custom player controllers and physics interactions, alongside optimization pipelines in Unity.', points: ['Custom player controllers', 'Physics interactions', 'Gameplay optimization'] },
+      { title: 'Taking Lemony Fresh to PlayNYC.', body: 'I showed Lemony Fresh at PlayNYC, where visitors stopped by the booth to try the game. My post thanks Brett Taylor, Isabella Trama, Noor Romans, Andrew, and the volunteers who helped bring the booth together. The gallery includes a preview and a link to the original video post.' },
     ],
   },
   {
     id: 'fairys-inferno', title: "Fairy’s Inferno", category: 'Games',
     role: 'Lead Gameplay & Shader Developer',
-    summary: 'A Touhou-inspired vertical bullet-hell shooter made by a four-person game-jam team.',
+    summary: 'A Touhou-inspired vertical bullet-hell shooter made for The Very Serious Juniper Dev Game Jam.',
     tags: ['Unity', 'C#', 'WebGL', 'Shaders'],
+    cover: '/projects/fairys-inferno.png', coverAlt: 'Fairy’s Inferno illustrated title artwork',
+    link: 'https://tukotara.itch.io/fairys-inferno', linkLabel: 'Play on itch.io',
     chapters: [
       { title: 'A screen full of patterns.', body: 'A small team, a game-jam deadline, and a vertical shooter inspired by Touhou. I led gameplay and shader development.' },
       { title: 'Built for the browser.', body: 'The project shipped as a WebGL build on itch.io. Custom particle shaders were part of the work of bringing the game’s effects to the browser.', points: ['Gameplay development', 'Custom particle shaders', 'WebGL build'] },
@@ -50,10 +64,15 @@ export const projects: Project[] = [
     role: 'Current game project',
     summary: 'A game I’m currently making, alongside my other game-development work.',
     tags: ['Game Development', 'In progress'],
-    chapters: [{ title: 'Still taking shape.', body: 'Prescription is part of my current game work. I’m keeping this entry brief while the project develops; more of the game will appear here as it is ready to share.' }],
+    cover: '/projects/prescription-blue.png', coverAlt: 'Prescription blue character painting',
+    gallery: [
+      { src: '/projects/prescription-blue.png', alt: 'Blue character in a moonlit scene from Prescription', caption: 'Prescription / blue character artwork' },
+      { src: '/projects/prescription-farmer.png', alt: 'Farmer character wearing a broad yellow hat from Prescription', caption: 'Prescription / farmer character artwork' },
+    ],
+    chapters: [{ title: 'Still taking shape.', body: 'Prescription is part of my current game work. These character paintings offer a first look at the project: the blue character and the farmer. More of the game will appear here as it develops.' }],
   },
   {
-    id: 'gif-to-avif', title: 'GIF → AVIF', category: 'Software',
+    id: 'gif-to-avif', title: 'GIF to AVIF', category: 'Software',
     role: 'Developer', summary: 'A lightweight browser-based converter for making animated assets smaller.',
     tags: ['JavaScript', 'Image Processing', 'AVIF'],
     cover: '/projects/gif_to_avif.png', coverAlt: 'GIF-to-AVIF converter interface',
@@ -74,7 +93,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'nl2sql', title: 'Natural Language → SQL', category: 'Engineering',
+    id: 'nl2sql', title: 'Natural Language to SQL', category: 'Engineering',
     role: 'Break Through Tech AI Fellow · Cornell Tech',
     summary: 'A natural-language-to-SQL translation pipeline built with LangChain.',
     tags: ['Python', 'LangChain', 'SQL'],

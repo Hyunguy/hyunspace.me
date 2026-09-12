@@ -21,3 +21,11 @@ Unverified statistics, wishlist totals, selection claims, and conflicting durati
 The original project data supplies the mappings for `arcadiaprotocol.png`, `gif_to_avif.png`, `stevensresearch.png`, `engr112.png`, `111.png`, and `amazoncert.png`. `111.png` belongs to the planter, not Lemony Fresh. The Hana icon is not a game screenshot. Projects without genuine artwork use typography.
 
 About uses the three MP4s and ColorStack E-board photo supplied directly in this task. Clips were converted into 24 fps, 498px-wide looping GIFs. All referenced media is included in `public/`.
+
+## Added game media
+
+Lemony Fresh now uses the supplied title art and four screenshots from https://store.steampowered.com/app/4450050/Lemony_Fresh/. Its PlayNYC chapter summarizes the user's post at https://www.linkedin.com/feed/update/urn:li:activity:7497842255802572800/. The gallery uses that post's video-cover image and links to the original post; it is not a local video embed.
+
+Fairy's Inferno uses the supplied title artwork and links to https://tukotara.itch.io/fairys-inferno. The jam name is confirmed there; the older four-person count was removed because the page lists five authors.
+
+Prescription includes the supplied blue character and farmer paintings. No character names or gameplay roles have been inferred. These additions supersede the earlier notes about unavailable game artwork.

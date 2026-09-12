@@ -11,7 +11,7 @@ test('every authored project can open a nonempty story with a unique stable ID',
     assert.ok(['Games', 'Engineering', 'Software'].includes(project.category));
     assert.ok(project.chapters.length > 0);
     assert.ok(project.chapters.every(chapter => chapter.title && chapter.body));
-    if (project.link) assert.match(project.link, /^https:\/\/github\.com\//);
+    if (project.link) assert.ok(['github.com', 'store.steampowered.com', 'tukotara.itch.io'].includes(new URL(project.link).hostname));
   }
 });
 
@@ -20,6 +20,14 @@ test('all linked project and About media exist in the production public director
     assert.ok(project.coverAlt);
     assert.match(project.cover, /^\/projects\/[^/]+$/);
     await access(new URL(`../public${project.cover}`, import.meta.url));
+  }
+  for (const project of projects) {
+    for (const media of project.gallery || []) {
+      assert.ok(media.alt && media.caption);
+      assert.match(media.src, /^\/projects\/[^/]+$/);
+      await access(new URL(`../public${media.src}`, import.meta.url));
+      if (media.link) assert.equal(new URL(media.link).hostname, 'www.linkedin.com');
+    }
   }
   for (const name of ['va11-heads.gif', 'va11-city.gif', 'takopi.gif']) {
     const media = await readFile(new URL(`../public/media/${name}`, import.meta.url));
@@ -31,7 +39,7 @@ test('all linked project and About media exist in the production public director
 
 test('known mismatched artwork is not reassigned to a game', () => {
   assert.equal(projects.find(project => project.id === 'smart-planter').cover, '/projects/111.png');
-  assert.equal(projects.find(project => project.id === 'lemony-fresh').cover, undefined);
+  assert.equal(projects.find(project => project.id === 'lemony-fresh').cover, '/projects/lemony-fresh.png');
   assert.equal(projects.find(project => project.id === 'takedown-protocol').cover, '/projects/arcadiaprotocol.png');
   assert.ok(projects.every(project => !project.cover?.includes('pixelhavokk')));
 });
