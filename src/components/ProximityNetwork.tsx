@@ -7,6 +7,7 @@ const POINT_COUNT = 220;
 const MAX_SEGMENTS = 420;
 const LIMIT = new THREE.Vector3(125, 19, 3.4);
 const CENTER_Z = -10;
+const DOWNWARD_SPEED = 0.38;
 
 const seeded = (n: number) => {
   const value = Math.sin(n * 91.731 + 17.19) * 43758.5453;
@@ -28,8 +29,8 @@ export default function ProximityNetwork({ theme, active, color, activeColor }: 
     return array;
   }, [pointGeometry]);
   const velocities = useMemo(() => Array.from({ length: POINT_COUNT }, (_, i) => new THREE.Vector3(
-    (seeded(i + 2001) - 0.5) * 0.5,
-    (seeded(i + 2501) - 0.5) * 0.34,
+    (seeded(i + 2001) - 0.5) * 0.12,
+    -DOWNWARD_SPEED + (seeded(i + 2501) - 0.5) * 0.06,
     (seeded(i + 3001) - 0.5) * 0.12,
   )), []);
   const lines = useMemo(() => {
@@ -42,7 +43,7 @@ export default function ProximityNetwork({ theme, active, color, activeColor }: 
 
   useEffect(() => () => { pointGeometry.dispose(); lineGeometry.dispose(); }, [lineGeometry, pointGeometry]);
 
-  useFrame((_, delta) => {
+  useFrame(({ clock }, delta) => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const dt = reduced ? 0 : Math.min(delta, 0.05);
     for (let i = 0; i < POINT_COUNT; i += 1) {
@@ -51,7 +52,8 @@ export default function ProximityNetwork({ theme, active, color, activeColor }: 
       positions[p + 1] += velocities[i].y * dt;
       positions[p + 2] += velocities[i].z * dt;
       if (Math.abs(positions[p]) > LIMIT.x) velocities[i].x *= -1;
-      if (Math.abs(positions[p + 1]) > LIMIT.y) velocities[i].y *= -1;
+      // Recycle below the visible scene instead of bouncing the flow upward.
+      if (positions[p + 1] < -LIMIT.y) positions[p + 1] += LIMIT.y * 2;
       if (Math.abs(positions[p + 2] - CENTER_Z) > LIMIT.z) velocities[i].z *= -1;
     }
     (pointGeometry.attributes.position as THREE.BufferAttribute).needsUpdate = true;
@@ -66,9 +68,16 @@ export default function ProximityNetwork({ theme, active, color, activeColor }: 
         const ax = positions[a * 3], ay = positions[a * 3 + 1], az = positions[a * 3 + 2];
         const dx = ax - positions[b * 3], dy = ay - positions[b * 3 + 1], dz = az - positions[b * 3 + 2];
         if (dx * dx + dy * dy + dz * dz >= 64) continue;
+        // Independent, brief signal slips: most connections remain untouched.
+        // Stable edge IDs prevent random jitter from being regenerated every frame.
+        const edge = a * POINT_COUNT + b;
+        const phase = clock.elapsedTime + seeded(edge + 4101) * 5;
+        const cycle = Math.floor(phase / 5);
+        const glitching = !reduced && phase % 5 < 0.22 && seeded(edge + cycle * 1709) < 0.35;
+        const slip = glitching ? (seeded(edge + cycle + 5101) > 0.5 ? 0.14 : -0.14) : 0;
         const cursor = segment * 6;
-        lines[cursor] = ax; lines[cursor + 1] = ay; lines[cursor + 2] = az;
-        lines[cursor + 3] = positions[b * 3]; lines[cursor + 4] = positions[b * 3 + 1]; lines[cursor + 5] = positions[b * 3 + 2];
+        lines[cursor] = ax + slip; lines[cursor + 1] = ay; lines[cursor + 2] = az;
+        lines[cursor + 3] = positions[b * 3] + slip; lines[cursor + 4] = positions[b * 3 + 1]; lines[cursor + 5] = positions[b * 3 + 2];
         connections[a] += 1; connections[b] += 1; segment += 1;
       }
     }
