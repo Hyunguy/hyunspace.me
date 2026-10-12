@@ -6,9 +6,17 @@ const SECTION_X: Record<string, number> = { home: 0, about: -2.2, skills: 1.2, p
 
 /** Restrained perspective camera with only section drift and near-imperceptible jitter. */
 export default function CameraRig({ section, setStats }: { section: string; setStats: (s: any) => void }) {
-  const { camera, gl } = useThree();
+  const { camera, gl, size } = useThree();
   const elapsed = useRef(0);
   const target = useRef(new THREE.Vector3(0, 0, 10));
+
+  useEffect(() => {
+    if (!(camera instanceof THREE.PerspectiveCamera)) return;
+    // Widen the portrait view so the decorative forms retain context on phones.
+    const aspect = size.width / Math.max(size.height, 1);
+    camera.fov = Math.min(65, THREE.MathUtils.radToDeg(2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(35 / 2)) * Math.max(1, 1 / aspect))));
+    camera.updateProjectionMatrix();
+  }, [camera, size.width, size.height]);
 
   useEffect(() => {
     camera.position.set(0, 0, 10);

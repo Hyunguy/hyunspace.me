@@ -1,5 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from '@fuser/vendor/react';
-import { projects, type Project } from '../data/projects';
+import { projects as allProjects, type Project } from '../data/projects';
+import { isShowcasePath, showcaseProjects } from '../showcase';
 import ProjectStory, { ProjectArtwork } from './ProjectStory';
 import './projects.css';
 
@@ -7,6 +8,7 @@ type Repository = { id: number; name: string; html_url: string; description: str
 const categories = ['All', 'Games', 'Engineering', 'Software'] as const;
 
 export default function WorkSection() {
+  const projects = showcaseProjects(allProjects, isShowcasePath(location.pathname));
   const [category, setCategory] = useState<typeof categories[number]>('All');
   const [selected, setSelected] = useState<Project | null>(null);
   const grid = useRef<HTMLDivElement>(null);

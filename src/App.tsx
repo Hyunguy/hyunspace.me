@@ -5,6 +5,8 @@ import HanaLogo from './components/HanaLogo';
 import SectionView from './components/SectionView';
 import { THEMES, themeOrder, type ThemeName } from './theme';
 import './experience.css';
+import './responsive.css';
+import { isShowcasePath, sectionPath, sectionFromPath } from './showcase';
 import { bounceEntrance } from './components/bounceEntrance';
 
 export type SectionType = 'home' | 'about' | 'skills' | 'projects' | 'systems' | 'contact';
@@ -43,11 +45,11 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
   const navigate = (section: SectionType) => {
     if (section === activeSection) return;
     transition(section);
-    window.history.pushState({ section }, '', section === 'home' ? '/' : `/${section}`);
+    window.history.pushState({ section }, '', sectionPath(section, isShowcasePath(location.pathname)));
   };
   useEffect(() => {
     const parse = () => {
-      const target = (location.hash.slice(1) || location.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
+      const target = (location.hash.slice(1) || sectionFromPath(location.pathname)).toLowerCase();
       transition(['about', 'skills', 'projects', 'systems', 'contact'].includes(target) ? target as SectionType : 'home');
     };
     parse();
@@ -79,7 +81,8 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
     style={{ '--scene-paper': theme.background, '--scene-ink': theme.ink, '--scene-muted': theme.muted, '--scene-accent': theme.accent, '--scene-line': theme.line } as React.CSSProperties}>
 
     <ThreeCanvas theme={themeName === 'dark' ? 'dark' : 'light'} backgroundColor={theme.background} accentColor={theme.accent} lineColor={theme.line} renderMode="render" showProfiler={false} gyroEnabled={gyroEnabled} activeSection={activeSection} isTransitioning={isTransitioning} hoveredMenu={hoveredMenu} sceneReference={sceneReference} />
-    <main className="relative z-10 h-full w-full max-w-7xl mx-auto px-4 sm:px-8 py-6 pointer-events-none">
+    <div className="viewport-frame" aria-hidden="true" />
+    <main className="app-content relative z-10 h-full w-full max-w-7xl mx-auto px-4 sm:px-8 py-6 pointer-events-none">
       {activeSection === 'home' ? <div ref={homeSurface} className="home-surface">
         <button data-fuser-slot-id="section-button-text-8b32ff4a" onClick={requestGyro} className="gyro-button" aria-pressed={gyroEnabled}>enable_gyro? {gyroEnabled ? '[on]' : ''}<span>{gyroMessage}</span></button>
         <div className="home-brand">

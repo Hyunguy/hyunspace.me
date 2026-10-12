@@ -607,6 +607,7 @@ export default function ThreeCanvas({
   return (
     <div className="fixed inset-0 z-0 pointer-events-auto" style={{ backgroundColor }}>
       <Canvas
+        dpr={[1, 1.5]}
         camera={{ position: [0, 0, 10], fov: 35 }}
         gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
       >
