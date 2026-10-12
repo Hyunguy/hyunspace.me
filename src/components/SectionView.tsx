@@ -11,12 +11,23 @@ export default function SectionView({ section, onBack, themeLabel, onCycleTheme,
   const scrollRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   useLayoutEffect(() => {
-    if (section !== 'about' || !sectionRef.current) return;
+    if (!['about', 'projects'].includes(section) || !sectionRef.current) return;
     const root = sectionRef.current;
+    const projectCards = section === 'projects'
+      ? Array.from(root.querySelectorAll<HTMLElement>('.project-card')).filter(card => {
+        const bounds = card.getBoundingClientRect();
+        const viewport = scrollRef.current!.getBoundingClientRect();
+        return bounds.top < viewport.bottom && bounds.bottom > viewport.top;
+      })
+      : [];
     return bounceEntrance([
       Array.from(root.querySelectorAll<HTMLElement>('.section-heading button, .section-bottom button')),
       Array.from(root.querySelectorAll<HTMLElement>('.scroll-controls button')),
       Array.from(root.querySelectorAll<HTMLElement>('.fact-title button')),
+      Array.from(root.querySelectorAll<HTMLElement>('.projects-heading')),
+      Array.from(root.querySelectorAll<HTMLElement>('.project-filters button')),
+      // Animate card contents so the existing scroll-driven card transform stays intact.
+      projectCards.flatMap(card => Array.from(card.children) as HTMLElement[]),
     ]);
   }, [section]);
   const scrollSection = (direction: 'up' | 'down') => {
