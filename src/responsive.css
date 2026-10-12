@@ -31,6 +31,21 @@
   box-shadow: inset 0 1px 0 #fff, 0 2px 5px #0003;
 }
 .app-shell .theme-cycle:hover { background: #e3e0d6; }
+/* Image labels must not inherit the white outline used by About body text. */
+.about-media figcaption, .about-media-empty {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 1px #111;
+  text-shadow: 0 1px 2px #000, 1px 0 0 #111, -1px 0 0 #111;
+}
+.about-media figcaption {
+  color: #fff;
+  background: rgba(8, 8, 8, .92);
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: .03em;
+  padding: 6px 9px;
+  max-width: 100%;
+}
 .app-shell button:focus-visible, .app-shell a:focus-visible {
   outline: 2px solid var(--scene-ink);
   outline-offset: 4px;
