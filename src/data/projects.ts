@@ -17,8 +17,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 'lemony-fresh', title: 'Lemony Fresh', category: 'Games',
-    role: 'Programmer / Producer · My Dog Zorro',
-    summary: 'A 3D action-adventure platformer, built with Unity and C#.',
+    role: 'Upcoming work · My Dog Zorro',
+    summary: 'I will be working on Lemony Fresh, a 3D action-adventure platformer from My Dog Zorro.',
     tags: ['Unity', 'C#', 'Gameplay', 'Production'],
     cover: '/projects/lemony-fresh.png', coverAlt: 'Lemony Fresh title artwork',
     link: 'https://store.steampowered.com/app/4450050/Lemony_Fresh/', linkLabel: 'Wishlist on Steam',
@@ -27,12 +27,11 @@ export const projects: Project[] = [
       { src: '/projects/lemony-steam-2.jpg', alt: 'Lemony Fresh gameplay screenshot 2', caption: 'Lemony Fresh / official Steam screenshot 02' },
       { src: '/projects/lemony-steam-3.jpg', alt: 'Lemony Fresh gameplay screenshot 3', caption: 'Lemony Fresh / official Steam screenshot 03' },
       { src: '/projects/lemony-steam-4.jpg', alt: 'Lemony Fresh gameplay screenshot 4', caption: 'Lemony Fresh / official Steam screenshot 04' },
-      { src: '/projects/lemony-playnyc.jpg', alt: 'Lemony Fresh booth and gameplay display at PlayNYC', caption: 'PlayNYC / preview of my LinkedIn video post', link: 'https://www.linkedin.com/feed/update/urn:li:activity:7497842255802572800/' },
+      { src: '/projects/lemony-playnyc.jpg', alt: 'Lemony Fresh booth and gameplay display at PlayNYC', caption: 'Lemony Fresh / PlayNYC preview from LinkedIn', link: 'https://www.linkedin.com/feed/update/urn:li:activity:7497842255802572800/' },
     ],
     chapters: [
-      { title: 'Movement, interaction, feel.', body: 'My work on Lemony Fresh spans programming and production at My Dog Zorro. The project brings together character movement, physics interactions, and real-time performance.' },
-      { title: 'Inside the gameplay.', body: 'I build custom player controllers and physics interactions, alongside optimization pipelines in Unity.', points: ['Custom player controllers', 'Physics interactions', 'Gameplay optimization'] },
-      { title: 'Taking Lemony Fresh to PlayNYC.', body: 'I showed Lemony Fresh at PlayNYC, where visitors stopped by the booth to try the game. My post thanks Brett Taylor, Isabella Trama, Noor Romans, Andrew, and the volunteers who helped bring the booth together. The gallery includes a preview and a link to the original video post.' },
+      { title: 'Looking ahead.', body: 'I will be working on Lemony Fresh at My Dog Zorro. Updates on my contributions will be added as the work develops.' },
+      { title: 'About the images.', body: 'The artwork and screenshots shown here are promotional material for Lemony Fresh, not assets I created. They are included to introduce the game.' },
     ],
   },
   {
