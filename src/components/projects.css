@@ -65,7 +65,9 @@
 .project-artwork-large .project-type-art { padding:32px; }
 .project-artwork-large .project-type-art strong { font-size:clamp(40px,5vw,76px); }
 .story-chapter { display:grid; grid-template-columns:.45fr 1fr; gap:6vw; align-items:center; }
-.story-chapter-number { font:800 clamp(100px,22vw,300px)/1 'Manrope',sans-serif; color:var(--scene-paper); -webkit-text-stroke:1px var(--scene-ink); letter-spacing:-.1em; }
+.story-chapter-number { font:600 clamp(100px,22vw,300px)/1 'Manrope',sans-serif; color:var(--scene-paper); -webkit-text-stroke:1.5px var(--scene-ink); paint-order:stroke fill; letter-spacing:0; font-variant-numeric:lining-nums tabular-nums; text-rendering:optimizeLegibility; }
+/* Keep outlined digits at their native size instead of scaling a composited text layer. */
+.story-panel>.story-chapter-number { transform:none; }
 .story-chapter h3 { font:800 clamp(36px,5vw,74px)/1.02 'Manrope',sans-serif; letter-spacing:-.055em; margin:24px 0; }
 .story-chapter p { font:500 clamp(17px,1.8vw,24px)/1.65 'Manrope',sans-serif; max-width:760px; }
 .story-points { margin:28px 0; padding-left:20px; list-style:disc; }
