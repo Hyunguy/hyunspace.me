@@ -17,8 +17,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 'lemony-fresh', title: 'Lemony Fresh', category: 'Games',
-    role: 'Upcoming work · My Dog Zorro',
-    summary: 'I will be working on Lemony Fresh, a 3D action-adventure platformer from My Dog Zorro.',
+    role: 'Contributor · My Dog Zorro',
+    summary: 'Helping bring a lemony, sour world to life in Lemony Fresh, a 3D action-adventure platformer from My Dog Zorro.',
     tags: ['Unity', 'C#', 'Gameplay', 'Production'],
     cover: '/projects/lemony-fresh.png', coverAlt: 'Lemony Fresh title artwork',
     link: 'https://store.steampowered.com/app/4450050/Lemony_Fresh/', linkLabel: 'Wishlist on Steam',
@@ -30,8 +30,7 @@ export const projects: Project[] = [
       { src: '/projects/lemony-playnyc.jpg', alt: 'Lemony Fresh booth and gameplay display at PlayNYC', caption: 'Lemony Fresh / PlayNYC preview from LinkedIn', link: 'https://www.linkedin.com/feed/update/urn:li:activity:7497842255802572800/' },
     ],
     chapters: [
-      { title: 'Looking ahead.', body: 'I will be working on Lemony Fresh at My Dog Zorro. Updates on my contributions will be added as the work develops.' },
-      { title: 'About the images.', body: 'The artwork and screenshots shown here are promotional material for Lemony Fresh, not assets I created. They are included to introduce the game.' },
+      { title: 'A little sour. A lot of adventure.', body: 'I’m lending a hand at My Dog Zorro, helping bring the lemony world of Lemony Fresh to life.' },
     ],
   },
   {
