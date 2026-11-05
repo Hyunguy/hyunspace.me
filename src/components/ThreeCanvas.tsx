@@ -311,9 +311,23 @@ export function DraggableObject({
   const activeHighlight = isHovered || isMenuTargeted;
   const themeHighlight = useContext(SceneAccentContext);
 
+  const pointer = useRef<number | null>(null);
+  const hold = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const start = useRef({ x: 0, y: 0 });
+  const clearHold = () => {
+    if (hold.current !== null) clearTimeout(hold.current);
+    hold.current = null;
+  };
+
   const handlePointerDown = (e: any) => {
+    if (pointer.current !== null || e.isPrimary === false) return;
+    pointer.current = e.pointerId;
+    start.current = { x: e.clientX, y: e.clientY };
     e.stopPropagation();
     e.target.setPointerCapture?.(e.pointerId);
+    const begin = () => {
+    hold.current = null;
+    if (!groupRef.current || pointer.current !== e.pointerId) return;
     setIsDragging(true);
     draggingRef.current = true;
     velocityRef.current.set(0, 0, 0);
@@ -325,10 +339,15 @@ export function DraggableObject({
       camera.getWorldDirection(new THREE.Vector3()).negate(),
       groupRef.current!.position
     );
+    };
+    if (e.pointerType === 'touch') hold.current = setTimeout(begin, 320);
+    else begin();
   };
 
   const handlePointerMove = (e: any) => {
-    if (!isDragging || !groupRef.current) return;
+    if (pointer.current !== e.pointerId) return;
+    if (hold.current !== null && Math.hypot(e.clientX - start.current.x, e.clientY - start.current.y) > 10) clearHold();
+    if (!draggingRef.current || !groupRef.current) return;
     e.stopPropagation();
     const intersection = new THREE.Vector3();
     if (e.ray.intersectPlane(planeRef.current, intersection)) {
@@ -349,6 +368,9 @@ export function DraggableObject({
   };
 
   const handlePointerUp = (e: any) => {
+    if (pointer.current !== e.pointerId) return;
+    clearHold();
+    pointer.current = null;
     e.stopPropagation();
     e.target.releasePointerCapture?.(e.pointerId);
     releaseObject();
@@ -417,13 +439,17 @@ export function DraggableObject({
   });
 
   useEffect(() => {
-    const onUp = () => {
+    const onUp = (event: PointerEvent) => {
+      if (pointer.current !== event.pointerId) return;
+      clearHold();
+      pointer.current = null;
       draggingRef.current = false;
       setIsDragging(false);
     };
     window.addEventListener('pointerup', onUp);
     window.addEventListener('pointercancel', onUp);
     return () => {
+      clearHold();
       window.removeEventListener('pointerup', onUp);
       window.removeEventListener('pointercancel', onUp);
     };
@@ -605,7 +631,7 @@ export default function ThreeCanvas({
   const [stats, setStats] = useState({ fps: 60, calls: 0, triangles: 0, points: 0 });
 
   return (
-    <div className="fixed inset-0 z-0 pointer-events-auto" style={{ backgroundColor }}>
+    <div className="fixed inset-0 z-0 pointer-events-auto" style={{ backgroundColor, touchAction: 'none' }}>
       <Canvas
         dpr={[1, 1.5]}
         camera={{ position: [0, 0, 10], fov: 35 }}
