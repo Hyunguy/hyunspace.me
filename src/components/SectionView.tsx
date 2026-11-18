@@ -1,5 +1,7 @@
 import React, { useLayoutEffect, useRef } from '@fuser/vendor/react';
 import { bounceEntrance } from './bounceEntrance';
+import { isJamPath } from '../showcase';
+import JamAbout from './JamAbout';
 import AboutSection from './AboutSection';
 import WorkSection from './WorkSection';
 import ContactSection from './ContactSection';
@@ -41,7 +43,7 @@ export default function SectionView({ section, onBack, themeLabel, onCycleTheme,
     </header>
     <div ref={scrollRef} className="section-scroll custom-scrollbar" key={section}>
       <div className="section-content-layer">
-        {section === 'about' && <AboutSection onScroll={scrollSection} media={portfolioMedia} />}
+        {section === 'about' && (isJamPath(location.pathname) ? <JamAbout /> : <AboutSection onScroll={scrollSection} media={portfolioMedia} />)}
         {section === 'skills' && <CoreSkillsSection onScroll={scrollSection} />}
         {section === 'projects' && <WorkSection />}
         {section === 'contact' && <ContactSection />}

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { isShowcasePath, sectionPath, sectionFromPath, showcaseProjects } from '../src/showcase.ts';
+import { isJamPath, isShowcasePath, sectionPath, sectionFromPath, showcaseProjects } from '../src/showcase.ts';
 import { projects } from '../src/data/projects.ts';
 
 test('showcase navigation keeps its prefix, including refreshes and return home', () => {
@@ -17,5 +17,16 @@ test('showcase omits only Lemony Fresh without changing the main catalog', () =>
   const filtered = showcaseProjects(projects, true);
   assert.equal(filtered.length, projects.length - 1);
   assert.ok(filtered.every(project => project.id !== 'lemony-fresh'));
+  assert.equal(showcaseProjects(projects, false), projects);
+});
+
+test('jam routes stay in jam mode and retain the complete project catalog', () => {
+  for (const section of ['home', 'about', 'projects', 'contact']) {
+    const path = sectionPath(section, false, true);
+    assert.ok(isJamPath(path));
+    assert.equal(sectionFromPath(path) || 'home', section);
+    assert.equal(sectionFromPath(path + '/') || 'home', section);
+  }
+  assert.equal(isJamPath('/jam-other'), false);
   assert.equal(showcaseProjects(projects, false), projects);
 });

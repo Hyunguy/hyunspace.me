@@ -6,7 +6,7 @@ import SectionView from './components/SectionView';
 import { THEMES, themeOrder, type ThemeName } from './theme';
 import './experience.css';
 import './responsive.css';
-import { isShowcasePath, sectionPath, sectionFromPath } from './showcase';
+import { isJamPath, isShowcasePath, sectionPath, sectionFromPath } from './showcase';
 import { bounceEntrance } from './components/bounceEntrance';
 
 export type SectionType = 'home' | 'about' | 'skills' | 'projects' | 'systems' | 'contact';
@@ -15,6 +15,7 @@ const menu: SectionType[] = ['about', 'projects', 'contact'];
 export type PortfolioMedia = { va11HeadsGif?: string; va11CityGif?: string; takopiGif?: string; communityPhoto?: string };
 
 export default function App({ sceneReference, portfolioMedia }: {sceneReference?: string; portfolioMedia?: PortfolioMedia;}) {
+  const jam = isJamPath(location.pathname);
   const [activeSection, setActiveSection] = useState<SectionType>('home');
   const [hoveredMenu, setHoveredMenu] = useState<SectionType | null>(null);
   const [gyroEnabled, setGyroEnabled] = useState(false);
@@ -45,7 +46,7 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
   const navigate = (section: SectionType) => {
     if (section === activeSection) return;
     transition(section);
-    window.history.pushState({ section }, '', sectionPath(section, isShowcasePath(location.pathname)));
+    window.history.pushState({ section }, '', sectionPath(section, isShowcasePath(location.pathname), jam));
   };
   useEffect(() => {
     const parse = () => {
@@ -87,14 +88,14 @@ export default function App({ sceneReference, portfolioMedia }: {sceneReference?
         <button data-fuser-slot-id="section-button-text-8b32ff4a" onClick={requestGyro} className="gyro-button" aria-pressed={gyroEnabled}>enable_gyro? {gyroEnabled ? '[on]' : ''}<span>{gyroMessage}</span></button>
         <div className="home-brand">
           <div className="flex items-center gap-3"><HanaLogo /><h1 className="text-4xl sm:text-6xl font-display font-extrabold tracking-tighter leading-none"><GlitchText text="hyun" /></h1></div>
-          <p data-fuser-slot-id="section-body-db4a8d27" className="text-base sm:text-xl font-bold tracking-tight mt-4">programmer, artist.</p>
+          <p data-fuser-slot-id="section-body-db4a8d27" className="text-base sm:text-xl font-bold tracking-tight mt-4">{jam ? 'game jam teammates wanted.' : 'programmer, artist.'}</p>
           <div className="home-metadata">
             <div data-fuser-slot-id="section-text-9ae167f2" className="readable-highlight">everything here was built by human hands.</div><div data-fuser-slot-id="section-text-d6b3fc76" className="readable-highlight">designed and authored by: <strong data-fuser-slot-id="section-text-4b407a81">hyun</strong></div><div data-fuser-slot-id="section-text-fe968456" className="readable-highlight">libraries: <strong data-fuser-slot-id="section-text-e9083f4f">three.js / r3f / rapier</strong></div><div data-fuser-slot-id="section-text-5698ef5a" className="readable-highlight">framework: <strong data-fuser-slot-id="section-text-8e013ef8">react</strong></div>
           </div>
-          <div className="home-links" aria-label="Find hyun online">
+          <div className="home-links" aria-label="Find hyun online">{jam && <a href="/jam/contact">team up / discord</a>}
             <a data-fuser-slot-id="find-hyun-online-link-fe1d36e0" className="readable-link" href="https://github.com/Hyunguy" target="_blank" rel="noopener noreferrer">github ↗</a>
-            <a data-fuser-slot-id="find-hyun-online-link-94b4668c" className="readable-link" href="https://www.linkedin.com/in/hyun-dev/" target="_blank" rel="noopener noreferrer">linkedin ↗</a>
-            <a data-fuser-slot-id="find-hyun-online-link-850f79b1" className="readable-link" href="mailto:hyuntheengineer@gmail.com">email ↗</a>
+{!jam && <>            <a data-fuser-slot-id="find-hyun-online-link-94b4668c" className="readable-link" href="https://www.linkedin.com/in/hyun-dev/" target="_blank" rel="noopener noreferrer">linkedin ↗</a></>}
+{!jam && <>            <a data-fuser-slot-id="find-hyun-online-link-850f79b1" className="readable-link" href="mailto:hyuntheengineer@gmail.com">email ↗</a></>}
           </div>
         </div>
         <div className="home-menu" aria-label="Portfolio sections">
